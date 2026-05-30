@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КиноСайт | Актёры</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/actor.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <div class="header-placeholder"></div>
+    <main class="main">
+        <section class="actors_list">
+            <div class="container">
+                <h1 class="actors_list__title title">Актёры</h1>
+                <div class="actors_list__cards actors-cards">
+                </div>
+                <div class="films__pagination">
+                    <div class="films__pagination-number prev"><</div>
+                    <div class="films__pagination-number number--active">1</div>
+                    <div class="films__pagination-number">2</div>
+                    <div class="films__pagination-number">3</div>
+                    <div class="films__pagination-number">4</div>
+                    <div class="films__pagination-number">5</div>
+                    <div class="films__pagination-number">6</div>
+                    <div class="films__pagination-number next">></div>
+                </div>
+            </div>
+        </section>
+        <section class="actor_modal">
+            <button class="actor_modal__close"></button>
+            <div class="actor_modal__wrapper">
+                <img class="actor_modal__img" src="#" alt="actor-card-img">
+                <div class="actor_modal__info">
+                    <h3 class="actor_modal__name"></h3>
+                    <div class="actor_modal__age"></div>
+                    <h4 class="actor_modal__films actor_modal__title">Фильмография</h4>
+                    <ul class="movie__actors-list">
+                    </ul>
+                </div>
+            </div>
+            <h4 class=" actor_modal__bio actor_modal__title">Биография</h4>
+            <p class="actor_modal__text"></p>
+            <button class="actor_modal__close-btn">Закрыть</button>
+        </section>
+        <section class="actors_recent">
+            <div class="container">
+                <h2 class="actors_recent-title title">Последние просмотренные</h2>
+                <div class="actors_recent__cards actors-cards">
+            </div>
+        </section>
+        <div class="subscribe-placeholder"></div>
+    </main>
+    <div class="footer-placeholder"></div>
+    <script src="js/get-block.js"></script>
+    <script src="js/actor.js"></script>
+</body>
+</html>

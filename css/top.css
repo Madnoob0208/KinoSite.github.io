@@ -1,0 +1,124 @@
+.filters{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.filters__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.filters__title{
+    color: var(--main);
+    font-size: 32px;
+    font-weight: 600;
+}
+.filters__inputs{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex: wrap;
+    justify-content: center;
+}
+.filters__input{
+    border: 1px solid var(--main);
+    border-radius: 20px;
+    padding: 15px 30px;
+    font-size: 16px;
+    outline: none;
+}
+.filters__input::placeholder{
+    color: var(--main-opacity);
+}
+.filters__input.input-year{
+    width: 120px;
+}
+.filters__input.input-title{
+    width: 300px;
+}
+.top{
+    padding-bottom: 100px;
+}
+.no-films{
+    text-align: center;
+    color: var(--main);
+    font-weight: 500;
+}
+.top__cards{
+    margin-bottom: 60px;
+}
+.top__card{
+    display: flex;
+    color: var(--main);
+    justify-content: center;
+    margin-bottom: 60px;
+    align-items: start;
+}
+.top__card-grandPlace{
+    font-weight: 600;
+    font-size: 100px;
+    color: var(--accent);
+    margin-right: 40px;
+}
+.top__card-topPlace{
+    font-weight: 600;
+    font-size: 70px;
+    color: var(--main);
+    margin-right: 48px;
+}
+.top__card-middlePlace{
+    font-weight: 600;
+    font-size: 50px;
+    color: var(--main);
+    margin-right: 39px;
+}
+.top__card-bottomPlace{
+    font-weight: 600;
+    font-size: 40px;
+    color: var(--main);
+    margin-right: 45px;
+}
+.top__card-img{
+    background-color: gray;
+    width: 170px;
+    margin-right: 50px;
+    display: block;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.top__card-info{
+    max-width: 600px;
+    margin-top: 15px;
+    margin-right: 85px;
+}
+.top__card-title{
+    color: var(--main);
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.top__card-title-link{
+    color: var(--main);
+}
+.top__card-desc{
+    font-size: 400;
+    font-size: 20;
+    margin-bottom: 15px;
+}
+.top__card-rating{
+    font-weight: 400;
+    font-size: 20px;
+}
+.top__card-data-item{
+    margin-bottom: 30px;
+    margin-top: 25px;
+    margin-right: 20px;
+    text-align: center;
+}
+.top__card-data-title{
+    font-weight: 400;
+    font-size: 18px;
+}
+.top__card-data-text{
+    font-weight: 400;
+    font-size: 16px;
+}

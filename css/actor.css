@@ -1,0 +1,111 @@
+.actors_list{
+    padding: 100px 0;
+}
+.actors-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 270px);
+    gap: 30px;
+    justify-content: center;
+}
+.actors_recent{
+    margin-bottom: 100px;
+}
+.actor-card{
+    border: 1px solid var(--main);
+    border-radius: 10px;
+    padding: 11px 11px 20px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.actor-card:hover{
+    border: 1px solid var(--hover-accent);
+    box-shadow: 10px 10px 30px var(--main)
+}
+.actor-img{
+    display: block;
+    width: 100%;
+    background-color: gray;
+    border-radius: 10px;
+    margin-bottom: 22px;
+}
+.actor-name{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--main);
+}
+.actor_modal{
+    max-width: 800px;
+    border-radius: 20px;
+    border: 1px solid var(--main);
+    padding: 30px;
+    position: fixed;
+    top: 10%;
+    left: 30%;
+    display: none;
+    background-color: var(--second);
+    color: var(--main);
+}
+.actor_modal__close{
+    background-image: url("../icons/close.png");
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: contain;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+}
+.actor_modal__wrapper{
+    display: flex;
+    gap: 50px;
+    align-items: start;
+    margin-bottom: 30px;
+}
+.actor_modal__img{
+    width: 300px;
+    background-color: gray;
+    border-radius: 10px;
+}
+.actor_modal__info{
+    width: 300px;
+}
+.actor_modal__name{
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.actor_modal__age{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+.actor_modal__title{
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.actor_modal__text{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.actor_modal__close-btn{
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 1px solid var(--accent);
+    padding: 15px 30px;
+    background-color: transparent;
+    outline: none;
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.actor_modal__close-btn:hover{
+    color: var(--accent);
+}
